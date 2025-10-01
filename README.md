@@ -14,9 +14,9 @@ Q&A chatbot with flow mode and RAG mode
 - PyPDF2/PDF loader – For document loading in RAG mode.
 
 ## 📂 Folder Structure
-app.py - Main RAG pipeline code.
-requirements.txt - Python dependencies.
-.env - Stores the secret keys like GROQ_API_KEY, LANGCHAIN_API_KEY (Create your own Groq API key and Langchain API key for running app.py)
+- app.py - Main RAG pipeline code.
+- requirements.txt - Python dependencies.
+- .env - Stores the secret keys like GROQ_API_KEY, LANGCHAIN_API_KEY (Create your own Groq API key and Langchain API key for running app.py)
 
 ## Setup Instructions
 
@@ -47,4 +47,5 @@ streamlit run app.py
 
 Access Online using Streamlit Cloud (You can directy access the app using the below link just by adding your own groq and langchain API keys)
 https://usklkgr7pyp4zxgfju8sfp.streamlit.app/
+
 
